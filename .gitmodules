@@ -1,0 +1,4 @@
+[submodule "lib/RakNet"]
+	path = lib/RakNet
+	url = https://github.com/OculusVR/RakNet
+	ignore = all
