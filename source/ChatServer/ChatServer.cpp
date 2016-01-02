@@ -14,7 +14,7 @@ int main(void)
 	bool isServer;
 
 	printf("(C) or (S)erver?\n");
-	gets(str);
+	gets_s(str);
 	if ((str[0] == 'c') || (str[0] == 'C'))
 	{
 		RakNet::SocketDescriptor sd;
